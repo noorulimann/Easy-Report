@@ -88,8 +88,8 @@ h3 {
 
 .login-actions a {
     color: #555;
-    text-decoration: underline; /* Underline the link */
-    margin-bottom: 40px; /* Add space between link and button */
+    text-decoration: underline; 
+    margin-bottom: 40px; 
     margin-left: 180px
 }
 
