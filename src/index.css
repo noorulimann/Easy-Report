@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
-/* Reset and base styles */
 * {
     padding: 0;
     margin: 0;
@@ -12,7 +11,6 @@ body {
     background-color: #e0e7ff;
 }
 
-/* Container and layout */
 .login-container {
     display: flex;
     height: 100vh;
@@ -43,7 +41,6 @@ body {
     height: auto;
 }
 
-/* Typography */
 h2 {
     margin-bottom: 20px;
     color: #333;
@@ -58,7 +55,7 @@ h3 {
     color: #fff;
 }
 
-/* Form styling */
+
 .form {
     width: 100%;
     max-width: 400px;
@@ -83,7 +80,6 @@ h3 {
     background: #f8faff;
 }
 
-/* Button styles */
 .login-actions {
     display: flex;
     flex-direction: column;
@@ -115,7 +111,6 @@ h3 {
     cursor: pointer;
 }
 
-/* Additional styles */
 .register-link {
     margin-top: 10px;
     text-align: center;
@@ -130,19 +125,18 @@ h3 {
     text-decoration: none;
 }
 
-/* Welcome box */
 .welcome-box {
-    border: 2px solid #8ddbc4; /* Border color and thickness */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Padding inside the box */
+    border: 2px solid #8ddbc4;
+    border-radius: 10px;
+    padding: 20px; 
    /* background-color: #77ba24;   */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for some depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     width: 100%;
-    max-width: 400px; /* Match the form's max width */
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
-    margin-bottom: 20px; /* Space below the box */
+    max-width: 400px;
+    box-sizing: border-box; 
+    margin-bottom: 20px;
 }
 
 .welcome-box form {
-    margin: 0; /* Remove default margin from the form */
+    margin: 0; 
 }
