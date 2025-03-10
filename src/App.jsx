@@ -12,7 +12,7 @@ const App = () => {
         console.log("hi"); 
         <div className="login-container">
           <div className="login-left">
-          console.log("hi2");
+          console.log("hi3");
             <div className="welcome-box">
               <h2>Welcome!</h2>
               <form>
