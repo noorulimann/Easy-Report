@@ -9,6 +9,7 @@ const App = () => {
     <Routes>
       {}
       <Route path="/" element={
+      console.log("hi"); 
         <div className="login-container">
           <div className="login-left">
             <div className="welcome-box">
