@@ -1,18 +1,14 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom'; 
-import Signup from './Signup'; 
+import { Routes, Route, Link } from 'react-router-dom';
+import Signup from './Signup';
 import './index.css';
-
 
 const App = () => {
   return (
     <Routes>
-      {}
       <Route path="/" element={
-        console.log("hi"); 
         <div className="login-container">
           <div className="login-left">
-          console.log("hi2");
             <div className="welcome-box">
               <h2>Welcome!</h2>
               <form>
@@ -29,22 +25,18 @@ const App = () => {
                   <button type="submit">Login</button>
                 </div>
               </form>
+              <p>Don't have an account? <Link to="/register">Register</Link></p>
               <div className="register-link">
-                <p>Don't have an account? <Link to="/register">Register</Link></p> {/* Use Link here */}
               </div>
             </div>
           </div>
-          <div className="login-right">
-            <img src="logo.jpg" alt="EasyReport Logo" className="logo" />
-          </div>
+          <img src="logo.jpg" alt="EasyReport Logo" className="logo" />
         </div>
       } />
-      
       {/* Define the route for the signup page */}
-      <Route path="/register" element={<Signup />} /> 
+      <Route path="/register" element={<Signup />} />
     </Routes>
   );
 };
 
 export default App;
-
